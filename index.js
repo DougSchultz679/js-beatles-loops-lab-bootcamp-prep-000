@@ -12,10 +12,10 @@ function theBeatlesPlay(musiArr,instArr){
     return result;}
 
 function johnLennonFacts(factsArr){
-  var i=0;
-while(factsArr[i]<factsArr.length){
+  var i=factsArr.length;
+while(i>0){
   factsArr[i]+="!!!";
-  i++;}
+  i--;}
   return factsArr;}
   
 function iLoveTheBeatles(n){
