@@ -25,5 +25,6 @@ function iLoveTheBeatles(n){
 }
 
 facts[0]+="!!!";
+console.log(facts[0]<facts.length);
 console.log(facts[0]);
 console.log(facts[0]+"!!!");
